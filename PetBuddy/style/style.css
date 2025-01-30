@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: ADLaM;
+  font-family: SORA;
+  src: url(../fonts/ADLaMDisplay-Regular.ttf);
+  src: url(../fonts/Sora-Regular.ttf);
+  font-display: swap;
+}
+@theme {
+  --font-adlam: "ADLaM";
+  --font-sora: "SORA";
+  --breakpoint-900d: 900px;
+  --breakpoint-500d: 500px;
+  --breakpoint-410d: 410px;
+}
+/* Nav */
+.input_Text, .open_menu, .close_menu{
+  display: none;
+}
+@media screen and (max-width: 900px){
+  header{
+    border-bottom: 1px solid #e6e2e2;
+  }
+  #nav_section{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    background-color: #FFF9F4;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #e6e2e2;
+    padding: 20px;
+  }
+  .open_menu{
+    display: block;
+  }
+  #check:checked ~ .label_text .open_menu{
+    display: none;
+  }
+  #check:checked ~ .label_text .close_menu{
+    display: block;
+  }
+  #check:checked ~ #nav_section{
+    top: 70px;
+  }
+}
