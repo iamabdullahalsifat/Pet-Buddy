@@ -1,18 +1,22 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: ADLaM;
   font-family: SORA;
-  src: url(../fonts/ADLaMDisplay-Regular.ttf);
   src: url(../fonts/Sora-Regular.ttf);
   font-display: swap;
 }
 @theme {
-  --font-adlam: "ADLaM";
   --font-sora: "SORA";
   --breakpoint-900d: 900px;
+  --breakpoint-850d: 850px;
+  --breakpoint-800d: 800px;
   --breakpoint-500d: 500px;
+  --breakpoint-450d: 450px;
   --breakpoint-410d: 410px;
+  --breakpoint-360d: 360px;
+}
+.adlam{
+  font-family: "ADLaM Display", serif;
 }
 /* Nav */
 .input_Text, .open_menu, .close_menu{
@@ -31,6 +35,7 @@
     padding: 10px;
     border-bottom: 1px solid #e6e2e2;
     padding: 20px;
+    z-index: 900;
   }
   .open_menu{
     display: block;
