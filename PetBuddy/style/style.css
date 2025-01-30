@@ -25,6 +25,8 @@
 @media screen and (max-width: 900px){
   header{
     border-bottom: 1px solid #e6e2e2;
+    position: sticky;
+    top: 0;
   }
   #nav_section{
     position: fixed;

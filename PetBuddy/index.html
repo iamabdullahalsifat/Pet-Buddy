@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pet Buddy</title>
-  <link rel="stylesheet" href="./style/style.css">
+  <!-- <link rel="stylesheet" href="./style/style.css"> -->
   <link rel="stylesheet" href="./style/output.css">
   <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
 </head>
@@ -19,7 +19,7 @@
       </div>
       <!-- Open / Close Menu Icon -->
       <input type="checkbox" id="check" class="input_Text">
-      <label for="check" class="label_text">
+      <label for="check" class="label_text cursor-pointer">
         <!-- Open Menu -->
         <span class="open_menu">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -59,71 +59,13 @@
             </span>
           </div>
           <!-- Button -->
-          <div>
-            <button class="border border-[#FFDC26] px-4 py-1 rounded-md cursor-pointer mr-2 hover:bg-[#FFDC26] transition duration-150 ease-in-out">Login</button>
+          <div class="flex gap-2">
+            <button class="border border-[#FFDC26] px-4 py-1 rounded-md cursor-pointer hover:bg-[#FFDC26] transition duration-150 ease-in-out">Login</button>
             <button class="border border-[#FFDC26] px-4 py-1 rounded-md bg-[#FFDC26] cursor-pointer hover:bg-[#FFF9F4] transition duration-150 ease-in-out">Register</button>
           </div>
         </div>
       </div>
     </section>
   </header>
-  <!-- ==(Main)== -->
-  <main>
-    <!-- Banner -->
-    <!-- Categories -->
-    <section class="max-w-7xl mx-auto py-10 px-5">
-      <h2 class="adlam text-2xl">Browse By Categories</h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mt-10">
-        <!-- Card 1 -->
-        <div class="bg-[#F9DF8A] p-10 flex flex-col justify-center text-center items-center rounded-xl space-y-5">
-          <img class="bg-white p-5 rounded-full" src="./images/dog-cartoon.png">
-          <div>
-            <h3>Dog</h3>
-            <p>5 items</p>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="bg-[#F9DF8A] p-10 flex flex-col justify-center text-center items-center rounded-xl space-y-5">
-          <img class="bg-white p-5 rounded-full" src="./images/fish-cartoon.png">
-          <div>
-            <h3>Fish</h3>
-            <p>3 items</p>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="bg-[#F9DF8A] p-10 flex flex-col justify-center text-center items-center rounded-xl space-y-5">
-          <img class="bg-white p-5 rounded-full" src="./images/cat-cartoon.png">
-          <div>
-            <h3>Cat</h3>
-            <p>7 items</p>
-          </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="bg-[#F9DF8A] p-10 flex flex-col justify-center text-center items-center rounded-xl space-y-5">
-          <img class="bg-white p-5 rounded-full" src="./images/bird-cartoon.png">
-          <div>
-            <h3>Dog</h3>
-            <p>6 items</p>
-          </div>
-        </div>
-        <!-- Card 5 -->
-        <div class="bg-[#F9DF8A] p-10 flex flex-col justify-center text-center items-center rounded-xl space-y-5">
-          <img class="bg-white p-5 rounded-full" src="./images/mouse-cartoon.png">
-          <div>
-            <h3>Dog</h3>
-            <p>5 items</p>
-          </div>
-        </div>
-        <!-- Card 6 -->
-        <div class="bg-[#F9DF8A] p-10 flex flex-col justify-center text-center items-center rounded-xl space-y-5">
-          <img class="bg-white p-5 rounded-full" src="./images/rabbit-cartoon.png">
-          <div>
-            <h3>Dog</h3>
-            <p>5 items</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
 </body>
 </html>
