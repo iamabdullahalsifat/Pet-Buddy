@@ -22,6 +22,13 @@
 .input_Text, .open_menu, .close_menu{
   display: none;
 }
+/* Background Image */
+.trending-bg{
+  background-image: url(../images/cute-pet-mid.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%;
+}
 @media screen and (max-width: 900px){
   header{
     border-bottom: 1px solid #e6e2e2;
@@ -50,5 +57,25 @@
   }
   #check:checked ~ #nav_section{
     top: 70px;
+  }
+}
+@media screen and (max-width: 800px){
+  .trending-bg{
+    background-size: 30%;
+  }
+}
+@media screen and (max-width: 640px){
+  #trending_last_card{
+    display: none;
+  }
+}
+@media screen and (max-width: 550px){
+  .trending-bg{
+    background-size: 38%;
+  }
+}
+@media screen and (max-width: 450px){
+  .trending-bg{
+    background-size: 45%;
   }
 }
