@@ -8,8 +8,10 @@
 @theme {
   --font-sora: "SORA";
   --breakpoint-900d: 900px;
+  --breakpoint-950d: 950px;
   --breakpoint-850d: 850px;
   --breakpoint-800d: 800px;
+  --breakpoint-770d: 770px;
   --breakpoint-500d: 500px;
   --breakpoint-550d: 550px;
   --breakpoint-450d: 450px;
