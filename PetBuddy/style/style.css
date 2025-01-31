@@ -11,6 +11,7 @@
   --breakpoint-850d: 850px;
   --breakpoint-800d: 800px;
   --breakpoint-500d: 500px;
+  --breakpoint-550d: 550px;
   --breakpoint-450d: 450px;
   --breakpoint-410d: 410px;
   --breakpoint-360d: 360px;
@@ -28,6 +29,16 @@
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 50%;
+}
+.low_price_bg{
+  background-image: url(../images/cute-pet-mid.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.low_price_bg_1{
+  background-image: url(../images/cute-dog-mid.png);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 @media screen and (max-width: 900px){
   header{
@@ -68,6 +79,11 @@
   #trending_last_card{
     display: none;
   }
+  .low_price_bg_1{
+    background-size: 60%;
+    background-position: right bottom;
+    padding-top: 40px;
+  }
 }
 @media screen and (max-width: 550px){
   .trending-bg{
@@ -77,5 +93,8 @@
 @media screen and (max-width: 450px){
   .trending-bg{
     background-size: 45%;
+  }
+  .low_price_bg{
+    background-size: 80%;
   }
 }
